@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C58B7F3818BCBC350061D9DE /* VSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A135BD18BB3EC200A4A261 /* VSViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker"; }; };
+		C58B7F3818BCBC350061D9DE /* VSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A135BD18BB3EC200A4A261 /* VSViewController.m */; };
 		C58B7F3918BCBC350061D9DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A135B318BB3EC200A4A261 /* main.m */; };
 		C58B7F3A18BCBC350061D9DE /* VSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A135B718BB3EC200A4A261 /* VSAppDelegate.m */; };
 		C58B7F3C18BCBC350061D9DE /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A1363518BB871D00A4A261 /* ImageIO.framework */; };
@@ -28,7 +28,7 @@
 		C5A135B418BB3EC200A4A261 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A135B318BB3EC200A4A261 /* main.m */; };
 		C5A135B818BB3EC200A4A261 /* VSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A135B718BB3EC200A4A261 /* VSAppDelegate.m */; };
 		C5A135BB18BB3EC200A4A261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A135B918BB3EC200A4A261 /* Main.storyboard */; };
-		C5A135BE18BB3EC200A4A261 /* VSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A135BD18BB3EC200A4A261 /* VSViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker"; }; };
+		C5A135BE18BB3EC200A4A261 /* VSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A135BD18BB3EC200A4A261 /* VSViewController.m */; };
 		C5A135C018BB3EC200A4A261 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5A135BF18BB3EC200A4A261 /* Images.xcassets */; };
 		C5A1363018BB86FD00A4A261 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A1362F18BB86FD00A4A261 /* MobileCoreServices.framework */; };
 		C5A1363218BB870600A4A261 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A1363118BB870600A4A261 /* QuartzCore.framework */; };
