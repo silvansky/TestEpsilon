@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C58B7F3818BCBC350061D9DE /* VSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A135BD18BB3EC200A4A261 /* VSViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker"; }; };
+		C58B7F3918BCBC350061D9DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A135B318BB3EC200A4A261 /* main.m */; };
+		C58B7F3A18BCBC350061D9DE /* VSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A135B718BB3EC200A4A261 /* VSAppDelegate.m */; };
+		C58B7F3C18BCBC350061D9DE /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A1363518BB871D00A4A261 /* ImageIO.framework */; };
+		C58B7F3D18BCBC350061D9DE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A1363318BB871400A4A261 /* SystemConfiguration.framework */; };
+		C58B7F3E18BCBC350061D9DE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A1363118BB870600A4A261 /* QuartzCore.framework */; };
+		C58B7F3F18BCBC350061D9DE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A1362F18BB86FD00A4A261 /* MobileCoreServices.framework */; };
+		C58B7F4018BCBC350061D9DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A135A918BB3EC200A4A261 /* CoreGraphics.framework */; };
+		C58B7F4118BCBC350061D9DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A135AB18BB3EC200A4A261 /* UIKit.framework */; };
+		C58B7F4218BCBC350061D9DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A135A718BB3EC200A4A261 /* Foundation.framework */; };
+		C58B7F4418BCBC350061D9DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5A135BF18BB3EC200A4A261 /* Images.xcassets */; };
+		C58B7F4518BCBC350061D9DE /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A1367C18BC819600A4A261 /* head.png */; };
+		C58B7F4618BCBC350061D9DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5A135B018BB3EC200A4A261 /* InfoPlist.strings */; };
+		C58B7F4718BCBC350061D9DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A135B918BB3EC200A4A261 /* Main.storyboard */; };
 		C5A135A818BB3EC200A4A261 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A135A718BB3EC200A4A261 /* Foundation.framework */; };
 		C5A135AA18BB3EC200A4A261 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A135A918BB3EC200A4A261 /* CoreGraphics.framework */; };
 		C5A135AC18BB3EC200A4A261 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A135AB18BB3EC200A4A261 /* UIKit.framework */; };
@@ -14,26 +28,18 @@
 		C5A135B418BB3EC200A4A261 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A135B318BB3EC200A4A261 /* main.m */; };
 		C5A135B818BB3EC200A4A261 /* VSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A135B718BB3EC200A4A261 /* VSAppDelegate.m */; };
 		C5A135BB18BB3EC200A4A261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A135B918BB3EC200A4A261 /* Main.storyboard */; };
-		C5A135BE18BB3EC200A4A261 /* VSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A135BD18BB3EC200A4A261 /* VSViewController.m */; };
+		C5A135BE18BB3EC200A4A261 /* VSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A135BD18BB3EC200A4A261 /* VSViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker"; }; };
 		C5A135C018BB3EC200A4A261 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5A135BF18BB3EC200A4A261 /* Images.xcassets */; };
-		C5A135C718BB3EC200A4A261 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A135C618BB3EC200A4A261 /* XCTest.framework */; };
-		C5A135C818BB3EC200A4A261 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A135A718BB3EC200A4A261 /* Foundation.framework */; };
-		C5A135C918BB3EC200A4A261 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A135AB18BB3EC200A4A261 /* UIKit.framework */; };
-		C5A135D118BB3EC200A4A261 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5A135CF18BB3EC200A4A261 /* InfoPlist.strings */; };
-		C5A135D318BB3EC300A4A261 /* TestEpsilonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A135D218BB3EC300A4A261 /* TestEpsilonTests.m */; };
+		C5A1363018BB86FD00A4A261 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A1362F18BB86FD00A4A261 /* MobileCoreServices.framework */; };
+		C5A1363218BB870600A4A261 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A1363118BB870600A4A261 /* QuartzCore.framework */; };
+		C5A1363418BB871400A4A261 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A1363318BB871400A4A261 /* SystemConfiguration.framework */; };
+		C5A1363618BB871D00A4A261 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A1363518BB871D00A4A261 /* ImageIO.framework */; };
+		C5A1367D18BC819600A4A261 /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = C5A1367C18BC819600A4A261 /* head.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C5A135CA18BB3EC200A4A261 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C5A1359C18BB3EC200A4A261 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C5A135A318BB3EC200A4A261;
-			remoteInfo = TestEpsilon;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		C58B7F4B18BCBC350061D9DE /* TestEpsilon copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestEpsilon copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58B7F4C18BCBC350061D9DE /* TestEpsilon copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TestEpsilon copy-Info.plist"; path = "/Users/gorshkov/Projects/TestEpsilon/TestEpsilon copy-Info.plist"; sourceTree = "<absolute>"; };
 		C5A135A418BB3EC200A4A261 /* TestEpsilon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestEpsilon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5A135A718BB3EC200A4A261 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C5A135A918BB3EC200A4A261 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,31 +54,40 @@
 		C5A135BC18BB3EC200A4A261 /* VSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSViewController.h; sourceTree = "<group>"; };
 		C5A135BD18BB3EC200A4A261 /* VSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSViewController.m; sourceTree = "<group>"; };
 		C5A135BF18BB3EC200A4A261 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C5A135C518BB3EC200A4A261 /* TestEpsilonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestEpsilonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5A135C618BB3EC200A4A261 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C5A135CE18BB3EC200A4A261 /* TestEpsilonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestEpsilonTests-Info.plist"; sourceTree = "<group>"; };
-		C5A135D018BB3EC200A4A261 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C5A135D218BB3EC300A4A261 /* TestEpsilonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestEpsilonTests.m; sourceTree = "<group>"; };
+		C5A1362F18BB86FD00A4A261 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C5A1363118BB870600A4A261 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C5A1363318BB871400A4A261 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C5A1363518BB871D00A4A261 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		C5A1367C18BC819600A4A261 /* head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C58B7F3B18BCBC350061D9DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58B7F3C18BCBC350061D9DE /* ImageIO.framework in Frameworks */,
+				C58B7F3D18BCBC350061D9DE /* SystemConfiguration.framework in Frameworks */,
+				C58B7F3E18BCBC350061D9DE /* QuartzCore.framework in Frameworks */,
+				C58B7F3F18BCBC350061D9DE /* MobileCoreServices.framework in Frameworks */,
+				C58B7F4018BCBC350061D9DE /* CoreGraphics.framework in Frameworks */,
+				C58B7F4118BCBC350061D9DE /* UIKit.framework in Frameworks */,
+				C58B7F4218BCBC350061D9DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C5A135A118BB3EC200A4A261 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5A1363618BB871D00A4A261 /* ImageIO.framework in Frameworks */,
+				C5A1363418BB871400A4A261 /* SystemConfiguration.framework in Frameworks */,
+				C5A1363218BB870600A4A261 /* QuartzCore.framework in Frameworks */,
+				C5A1363018BB86FD00A4A261 /* MobileCoreServices.framework in Frameworks */,
 				C5A135AA18BB3EC200A4A261 /* CoreGraphics.framework in Frameworks */,
 				C5A135AC18BB3EC200A4A261 /* UIKit.framework in Frameworks */,
 				C5A135A818BB3EC200A4A261 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5A135C218BB3EC200A4A261 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5A135C718BB3EC200A4A261 /* XCTest.framework in Frameworks */,
-				C5A135C918BB3EC200A4A261 /* UIKit.framework in Frameworks */,
-				C5A135C818BB3EC200A4A261 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				C5A135AD18BB3EC200A4A261 /* TestEpsilon */,
-				C5A135CC18BB3EC200A4A261 /* TestEpsilonTests */,
 				C5A135A618BB3EC200A4A261 /* Frameworks */,
 				C5A135A518BB3EC200A4A261 /* Products */,
 			);
@@ -93,7 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				C5A135A418BB3EC200A4A261 /* TestEpsilon.app */,
-				C5A135C518BB3EC200A4A261 /* TestEpsilonTests.xctest */,
+				C58B7F4B18BCBC350061D9DE /* TestEpsilon copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +115,10 @@
 		C5A135A618BB3EC200A4A261 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C5A1363518BB871D00A4A261 /* ImageIO.framework */,
+				C5A1363318BB871400A4A261 /* SystemConfiguration.framework */,
+				C5A1363118BB870600A4A261 /* QuartzCore.framework */,
+				C5A1362F18BB86FD00A4A261 /* MobileCoreServices.framework */,
 				C5A135A718BB3EC200A4A261 /* Foundation.framework */,
 				C5A135A918BB3EC200A4A261 /* CoreGraphics.framework */,
 				C5A135AB18BB3EC200A4A261 /* UIKit.framework */,
@@ -112,6 +130,7 @@
 		C5A135AD18BB3EC200A4A261 /* TestEpsilon */ = {
 			isa = PBXGroup;
 			children = (
+				C5A1367C18BC819600A4A261 /* head.png */,
 				C5A135B618BB3EC200A4A261 /* VSAppDelegate.h */,
 				C5A135B718BB3EC200A4A261 /* VSAppDelegate.m */,
 				C5A135B918BB3EC200A4A261 /* Main.storyboard */,
@@ -127,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				C5A135AF18BB3EC200A4A261 /* TestEpsilon-Info.plist */,
+				C58B7F4C18BCBC350061D9DE /* TestEpsilon copy-Info.plist */,
 				C5A135B018BB3EC200A4A261 /* InfoPlist.strings */,
 				C5A135B318BB3EC200A4A261 /* main.m */,
 				C5A135B518BB3EC200A4A261 /* TestEpsilon-Prefix.pch */,
@@ -134,27 +154,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C5A135CC18BB3EC200A4A261 /* TestEpsilonTests */ = {
-			isa = PBXGroup;
-			children = (
-				C5A135D218BB3EC300A4A261 /* TestEpsilonTests.m */,
-				C5A135CD18BB3EC200A4A261 /* Supporting Files */,
-			);
-			path = TestEpsilonTests;
-			sourceTree = "<group>";
-		};
-		C5A135CD18BB3EC200A4A261 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C5A135CE18BB3EC200A4A261 /* TestEpsilonTests-Info.plist */,
-				C5A135CF18BB3EC200A4A261 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C58B7F3618BCBC350061D9DE /* TestEpsilon No Modules */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C58B7F4818BCBC350061D9DE /* Build configuration list for PBXNativeTarget "TestEpsilon No Modules" */;
+			buildPhases = (
+				C58B7F3718BCBC350061D9DE /* Sources */,
+				C58B7F3B18BCBC350061D9DE /* Frameworks */,
+				C58B7F4318BCBC350061D9DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TestEpsilon No Modules";
+			productName = TestEpsilon;
+			productReference = C58B7F4B18BCBC350061D9DE /* TestEpsilon copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 		C5A135A318BB3EC200A4A261 /* TestEpsilon */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5A135D618BB3EC300A4A261 /* Build configuration list for PBXNativeTarget "TestEpsilon" */;
@@ -172,24 +191,6 @@
 			productReference = C5A135A418BB3EC200A4A261 /* TestEpsilon.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C5A135C418BB3EC200A4A261 /* TestEpsilonTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C5A135D918BB3EC300A4A261 /* Build configuration list for PBXNativeTarget "TestEpsilonTests" */;
-			buildPhases = (
-				C5A135C118BB3EC200A4A261 /* Sources */,
-				C5A135C218BB3EC200A4A261 /* Frameworks */,
-				C5A135C318BB3EC200A4A261 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C5A135CB18BB3EC200A4A261 /* PBXTargetDependency */,
-			);
-			name = TestEpsilonTests;
-			productName = TestEpsilonTests;
-			productReference = C5A135C518BB3EC200A4A261 /* TestEpsilonTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,11 +200,6 @@
 				CLASSPREFIX = VS;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = silvansky;
-				TargetAttributes = {
-					C5A135C418BB3EC200A4A261 = {
-						TestTargetID = C5A135A318BB3EC200A4A261;
-					};
-				};
 			};
 			buildConfigurationList = C5A1359F18BB3EC200A4A261 /* Build configuration list for PBXProject "TestEpsilon" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -219,33 +215,47 @@
 			projectRoot = "";
 			targets = (
 				C5A135A318BB3EC200A4A261 /* TestEpsilon */,
-				C5A135C418BB3EC200A4A261 /* TestEpsilonTests */,
+				C58B7F3618BCBC350061D9DE /* TestEpsilon No Modules */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C58B7F4318BCBC350061D9DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58B7F4418BCBC350061D9DE /* Images.xcassets in Resources */,
+				C58B7F4518BCBC350061D9DE /* head.png in Resources */,
+				C58B7F4618BCBC350061D9DE /* InfoPlist.strings in Resources */,
+				C58B7F4718BCBC350061D9DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C5A135A218BB3EC200A4A261 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C5A135C018BB3EC200A4A261 /* Images.xcassets in Resources */,
+				C5A1367D18BC819600A4A261 /* head.png in Resources */,
 				C5A135B218BB3EC200A4A261 /* InfoPlist.strings in Resources */,
 				C5A135BB18BB3EC200A4A261 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5A135C318BB3EC200A4A261 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5A135D118BB3EC200A4A261 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C58B7F3718BCBC350061D9DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58B7F3818BCBC350061D9DE /* VSViewController.m in Sources */,
+				C58B7F3918BCBC350061D9DE /* main.m in Sources */,
+				C58B7F3A18BCBC350061D9DE /* VSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C5A135A018BB3EC200A4A261 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,23 +266,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5A135C118BB3EC200A4A261 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5A135D318BB3EC300A4A261 /* TestEpsilonTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C5A135CB18BB3EC200A4A261 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C5A135A318BB3EC200A4A261 /* TestEpsilon */;
-			targetProxy = C5A135CA18BB3EC200A4A261 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C5A135B018BB3EC200A4A261 /* InfoPlist.strings */ = {
@@ -291,17 +285,72 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C5A135CF18BB3EC200A4A261 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C5A135D018BB3EC200A4A261 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C58B7F4918BCBC350061D9DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					arm64,
+					armv7s,
+					armv7,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestEpsilon/TestEpsilon-Prefix.pch";
+				INFOPLIST_FILE = "TestEpsilon copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "TestEpsilon copy";
+				SEPARATE_STRIP = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = debugging;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7s armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C58B7F4A18BCBC350061D9DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					arm64,
+					armv7s,
+					armv7,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestEpsilon/TestEpsilon-Prefix.pch";
+				INFOPLIST_FILE = "TestEpsilon copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "TestEpsilon copy";
+				SEPARATE_STRIP = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = debugging;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7s armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		C5A135D418BB3EC300A4A261 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -377,12 +426,31 @@
 		C5A135D718BB3EC300A4A261 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					arm64,
+					armv7s,
+					armv7,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestEpsilon/TestEpsilon-Prefix.pch";
 				INFOPLIST_FILE = "TestEpsilon/TestEpsilon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SEPARATE_STRIP = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = debugging;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7s armv7";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,61 +458,46 @@
 		C5A135D818BB3EC300A4A261 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					arm64,
+					armv7s,
+					armv7,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestEpsilon/TestEpsilon-Prefix.pch";
 				INFOPLIST_FILE = "TestEpsilon/TestEpsilon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SEPARATE_STRIP = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = debugging;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7s armv7";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		C5A135DA18BB3EC300A4A261 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestEpsilon.app/TestEpsilon";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestEpsilon/TestEpsilon-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "TestEpsilonTests/TestEpsilonTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		C5A135DB18BB3EC300A4A261 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestEpsilon.app/TestEpsilon";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TestEpsilon/TestEpsilon-Prefix.pch";
-				INFOPLIST_FILE = "TestEpsilonTests/TestEpsilonTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C58B7F4818BCBC350061D9DE /* Build configuration list for PBXNativeTarget "TestEpsilon No Modules" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58B7F4918BCBC350061D9DE /* Debug */,
+				C58B7F4A18BCBC350061D9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C5A1359F18BB3EC200A4A261 /* Build configuration list for PBXProject "TestEpsilon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -461,14 +514,7 @@
 				C5A135D818BB3EC300A4A261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		C5A135D918BB3EC300A4A261 /* Build configuration list for PBXNativeTarget "TestEpsilonTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C5A135DA18BB3EC300A4A261 /* Debug */,
-				C5A135DB18BB3EC300A4A261 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
